@@ -12,3 +12,5 @@ Runs at 27017 port
 ## mongoose connection
 mongoose.connect('mongodb://admin:pass@localhost:27017/mydb1?authSource=admin')
 
+mongo --username admin --password pass --authenticationDatabase admin --port 27017
+
